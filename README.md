@@ -3,10 +3,6 @@ This repository contains two Machine Learning models that forecast the daily # o
 
 **That is, when given future dates as input, the model will forecast the # of available hospital beds on each of those future dates and in addition, provide a range of possible values.**
 
-## Summary of Results
-
-
---- 
 
 ## About the Code
 The code is easily modifiable and [**very detailed**](https://github.com/IJ-Apps/Dallas-Data-Challenge/blob/master/DFW%20Available%20Hospital%20Bed%20Forecasting.ipynb) so that predictions can be made for different cities/regions given their data.
