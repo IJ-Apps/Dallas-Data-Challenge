@@ -15,7 +15,7 @@ The code is easily modifiable and [**very detailed**](https://github.com/IJ-Apps
   - In each Jupyter Notebook I train the model on data only before September - *(data is available for September dates)*. 
   - After the model is trained, I make it "forecast" the \# of available/occupied hospital beds in the first 3 weeks of September.
   - I compare these forecasts with the actual \# of hospital beds and calculate the **percent error, mean absolute error, and \# of forecast *intervals* that captured the correct \# of beds)**
-- **Forecasting for Future Dates:** 
+- **[Forecasting for Future Dates](https://render.githubusercontent.com/view/ipynb?commit=5a1502127ee991f1567bfaeddd2ff1a96ff5a743&enc_url=68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f494a2d417070732f44616c6c61732d446174612d4368616c6c656e67652f356131353032313237656539393166313536376266616564646432666631613936666635613734332f444657253230417661696c61626c65253230486f73706974616c253230426564253230466f726563617374696e672e6970796e623f746f6b656e3d414d4e5a5732593649344d495145374353463647414a4b374e564e5941&nwo=IJ-Apps%2FDallas-Data-Challenge&path=DFW+Available+Hospital+Bed+Forecasting.ipynb&repository_id=298444278&repository_type=Repository#Part-2---The-Future):** 
   - In this part of the notebook, I train the model on all past hospital bed data *(including September)*, then generate a list of 31 days from September 23rd to October 23rd and feed it into the model.
   - **The model forecasts the # of available/occupied hospital beds in the DFW region for future dates *(late September - October)*.**
 
