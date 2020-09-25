@@ -12,7 +12,7 @@ This repository contains two Machine Learning models that forecast the daily # o
 The code is easily modifiable and [**very detailed**](https://github.com/IJ-Apps/Dallas-Data-Challenge/blob/master/DFW%20Available%20Hospital%20Bed%20Forecasting.ipynb) so that predictions can be made for different cities/regions given their data.
 
 - [**DFW Available Hospital Bed Forecasting.ipynb**](https://github.com/IJ-Apps/Dallas-Data-Challenge/blob/master/DFW%20Available%20Hospital%20Bed%20Forecasting.ipynb) is a very detailed Jupyter Notebook for creating a model that forecasts the # of available hospital beds on future dates
-- [**DFW Available Hospital Bed Forecasting.ipynb.ipynb**](https://github.com/IJ-Apps/Dallas-Data-Challenge/blob/master/DFW%20Occupied%20Hospital%20Bed%20Forecasting.ipynb) is a Jupyter Notebook for creating a model that forecasts the # of occupied hospital beds.
+- [**DFW Occupied Hospital Bed Forecasting.ipynb.ipynb**](https://github.com/IJ-Apps/Dallas-Data-Challenge/blob/master/DFW%20Occupied%20Hospital%20Bed%20Forecasting.ipynb) is a Jupyter Notebook for creating a model that forecasts the # of occupied hospital beds.
 
 ### Features of the Notebooks
 - **Evaluating Model Performance on Known Data:** 
@@ -20,7 +20,7 @@ The code is easily modifiable and [**very detailed**](https://github.com/IJ-Apps
   - After the model is trained, I make it "forecast" the \# of available/occupied hospital beds in the first 3 weeks of September.
   - I compare these forecasts with the actual \# of hospital beds and calculate the **percent error, mean absolute error, and \# of forecast *intervals* that captured the correct \# of beds)**
 - **Forecasting for Future Dates:** 
-  - In this part of the notebook, I train the model on all past hospital bed data *(including September)*, then generate a list of 31 days from September 23rd to October 23rd and feed into the model.
+  - In this part of the notebook, I train the model on all past hospital bed data *(including September)*, then generate a list of 31 days from September 23rd to October 23rd and feed it into the model.
   - **The model forecasts the # of available/occupied hospital beds in the DFW region for future dates *(late September - October)*.**
 
 ### Features of the Model
